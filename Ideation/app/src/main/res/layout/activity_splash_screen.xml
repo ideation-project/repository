@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6EEA4"
+    app:layoutDescription="@xml/activity_splash_screen_scene"
+    app:showPaths="false"
+    tools:context=".ui.splashScreen.SplashScreenActivity">
+
+    <ImageView
+        android:id="@+id/outer_circle"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/splash_screen_outer_circle"
+        android:src="@drawable/outer_circle_splash_screen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/middle_circle"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/splash_screen_outer_circle"
+        android:src="@drawable/middle_circle_splash_screen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/inner_circle"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/splash_screen_outer_circle"
+        android:src="@drawable/inner_circle_splash_screen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logo_ide_kita"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/splash_screen_outer_circle"
+        android:src="@drawable/ideation_logo_crop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

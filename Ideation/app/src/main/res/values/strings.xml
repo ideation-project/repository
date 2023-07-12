@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Ideation</string>
+
+    <string name="desc_register">
+        Isikan data - data berikut :
+    </string>
+    <string name="splash_screen_outer_circle">splash_screen_outer_circle</string>
+    <string name="have_idea">Punya ide, tapi ga mau ngerjai ide kamu sendirian ?</string>
+    <string name="tv_1_title">Disini kamu bisa cari temen buat sama-sama bikin ide kamu jadi nyata</string>
+    <string name="tittle_2">Atau kamu lagi gabut, tapi tetep pingin produktif ?</string>
+    <string name="desc_2">Kamu juga bisa gabung ke projek yang sesuai dengan minat kamu</string>
+    <string name="tittle_page_3">Apa ide-mu hari ini ?</string>
+    <string name="desc_page_3">cari teman, dan mulai kerjain proyek sama-sama</string>
+    <string name="lanjut">Lanjut</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_text_1">Berlangsung</string>
+    <string name="tab_text_2">Selesai</string>
+    <string name="tab_cont_1">Kontributor</string>
+    <string name="tab_cont_2">Menunggu</string>
+    <string name="tab_context">just a text</string>
+    <string name="add_project">Buat Project</string>
+    <string name="input_proj_name">Masukkan judul projek</string>
+    <string name="input_proj_desc">Masukkan deskripsi projek</string>
+    <string name="judul_projek">Judul Projek</string>
+    <string name="bt_buat_projek">Buat Projek</string>
+    <string name="date_finish">Finish</string>
+    <string name="date_start">Start</string>
+    <string name="text_waktu_pengerjaan_proyek">Waktu pengerjaan proyek</string>
+    <string name="teks_deskripsi">Deskripsi</string>
+    <string name="tex_choose_image">Choose Image</string>
+    <string name="text_pilih_gambar">Pilih Gambar</string>
+    <string name="text_kategori">Kategori</string>
+    <string name="hint_pilih_kategori">Pilih Kategori</string>
+    <string name="desc_proj_image">proj_image</string>
+    <string name="desc_chose_category_chips_activity">Pilih minimal satu kategori agar kami dapat memberi rekomendasi kategori yang sesuai dengan anda</string>
+
+    <string-array name="kategori">
+        <item>Sosial</item>
+        <item>Pendidikan</item>
+        <item>Kesehatan</item>
+        <item>Budaya</item>
+        <item>Pemerintahan</item>
+        <item>Sains</item>
+        <item>Lingkungan</item>
+        <item>Olahraga</item>
+        <item>Kesejahteraaan</item>
+        <item>Hukum</item>
+    </string-array>
+
+    <string-array name="data_name">
+        <item>Charisma Deo</item>
+        <item>Dhillen</item>
+        <item>Bramantya</item>
+        <item>Sagitarius</item>
+        <item>Dzul Fikri</item>
+
+    </string-array>
+
+    <string-array name="data_description">
+        <item> Halo gaes,izin bertanya mungkin ada yang pernah men-develop aplikasi yang menggunakan databse mongoDb nggak ya??,aku nemuin masalah ketika make mongoDB nya </item>
+        <item> Hello Everyone, perkenalkan aku dhillen ,di lingkungan ku banyak sekali orang yang membuang sampah sembarangan,sehingga menyebabkan bau yang kurang sedap.Apakah ada saran dari teman-teman untuk solusi dari permasalahan tersebut?? </item>
+        <item> Teman-teman disini ada yang berminat gak ya buat join ke project ku?,rencana mau bikin aplikasi bank sampah </item>
+        <item> Hai teman-teman ,saya mau promosiin project say di Ideation in,project nya tentang pembuatan Machine Learning untuk mendeteksi penyakit mata.Bila ada yang tertarik langsung join aja di porject tersebut gaes </item>
+        <item> Selamat Pagi warga Ideation sekalian,perkenalkan nama ku Dzul,dan memiliki keahlian di android development.Sedang mencari project yang memiliki requirement seorang android development.Kalau ada project tersebut bisa infoin di kolom komentar ya ,Terima kasih </item>
+
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/gambar1</item>
+        <item>@drawable/gambar22</item>
+        <item>@drawable/gambar3</item>
+        <item>@drawable/gambar4</item>
+        <item>@drawable/gambar55</item>
+    </integer-array>
+
+
+</resources>
