@@ -13,9 +13,11 @@ import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import com.gemastik.ideation.MainActivity
 import com.gemastik.ideation.R
 import com.gemastik.ideation.databinding.ActivityAddProjectBinding
 import com.gemastik.ideation.result.TheResult
+import com.gemastik.ideation.ui.home.HomeFragment
 import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.MultipartBody
 import okhttp3.RequestBody.Companion.asRequestBody
@@ -109,6 +111,8 @@ class AddProjectActivity : AppCompatActivity() {
                         is TheResult.Success -> {
                             Toast.makeText(this, "berhasil dikirim", Toast.LENGTH_SHORT).show()
                             Log.i("create :", "berhasil dikirim")
+                            val intent = Intent(this,MainActivity::class.java)
+                            startActivity(intent)
                             finish()
 
                         }

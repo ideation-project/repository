@@ -86,7 +86,7 @@
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:layout_marginBottom="30dp"
-        android:src="@drawable/logo_ide_kita_ik"
+        android:src="@drawable/ideation_logo_crop"
         app:layout_constraintBottom_toTopOf="@+id/tv_tittle_3"
         app:layout_constraintEnd_toEndOf="@+id/tv_tittle_3"
         app:layout_constraintStart_toStartOf="@+id/tv_tittle_3" />
@@ -149,7 +149,7 @@
 
     <Button
         android:id="@+id/bt_to_login"
-        android:backgroundTint="#90CAF9"
+        android:backgroundTint="#FF9800"
         android:text="@string/lanjut"
         android:textColor="#838383"
         android:layout_width="wrap_content"
