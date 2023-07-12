@@ -11,13 +11,7 @@ const sequelize = new Sequelize(
   }
 );
 // console.log(process.env.DB_NAME);
-// buat lokal
-// const sequelize = new Sequelize("idekita-db", "root", "idekita", {
-//   host: "34.128.72.164",
-//   dialect: "mysql",
-// });
 
-// Tes koneksi ke database
 sequelize
   .authenticate()
   .then(() => {

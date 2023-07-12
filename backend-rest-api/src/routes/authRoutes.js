@@ -6,7 +6,7 @@ const authRoutes = [
     method: "GET",
     path: "/",
     handler: (request, h) => {
-      const message = "Anda harus Login!";
+      const message = "Ideation Backend Rest API!";
       return h.response({ message });
     },
     options: {

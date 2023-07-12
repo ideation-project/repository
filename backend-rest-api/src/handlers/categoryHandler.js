@@ -5,8 +5,6 @@ const { authenticateToken } = require("../config/middleware/authMiddleware");
 const categoryHandler = {
   getAllCategories: async (request, h) => {
     try {
-      await authenticateToken(request, h);
-
       const categories = await Category.findAll();
 
       const response = h.response({

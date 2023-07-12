@@ -2,7 +2,6 @@ const { authenticateToken } = require("../config/middleware/authMiddleware");
 const Project = require("../models/Project");
 const Category = require("../models/Category");
 const Contributor = require("../models/Contributor");
-const fs = require("fs");
 const path = require("path");
 const mime = require("mime-types");
 const { nanoid } = require("nanoid");
@@ -11,10 +10,10 @@ const { Sequelize } = require("sequelize");
 // cloud storage
 const { Storage } = require("@google-cloud/storage");
 const storage = new Storage({
-  projectId: "ide-kita",
-  keyFilename: path.join(__dirname, "../../ide-kita-5683f0576850.json"),
+  projectId: "ideation-392108",
+  keyFilename: path.join(__dirname, "../../ideation-392108-a5c25924d1b2.json"),
 });
-const bucketName = "project-imgs";
+const bucketName = "ideation-project-imgs";
 const bucket = storage.bucket(bucketName);
 
 // firebase
@@ -38,7 +37,7 @@ const projectHandler = {
       });
 
       projects.forEach((project) => {
-        project.gambar = `https://storage.googleapis.com/project-imgs/${project.gambar}`;
+        project.gambar = `https://storage.googleapis.com/${bucketName}/${project.gambar}`;
       });
 
       const response = h.response({
@@ -78,7 +77,7 @@ const projectHandler = {
       });
 
       projects.forEach((project) => {
-        project.gambar = `https://storage.googleapis.com/project-imgs/${project.gambar}`;
+        project.gambar = `https://storage.googleapis.com/${bucketName}/${project.gambar}`;
       });
 
       const response = h.response({
@@ -120,7 +119,7 @@ const projectHandler = {
       });
 
       projects.forEach((project) => {
-        project.gambar = `https://storage.googleapis.com/project-imgs/${project.gambar}`;
+        project.gambar = `https://storage.googleapis.com/${bucketName}/${project.gambar}`;
       });
 
       const response = h.response({
@@ -166,7 +165,7 @@ const projectHandler = {
         ],
       });
       projects.forEach((project) => {
-        project.gambar = `https://storage.googleapis.com/project-imgs/${project.gambar}`;
+        project.gambar = `https://storage.googleapis.com/${bucketName}/${project.gambar}`;
       });
       const response = h.response({
         status: "success",
@@ -508,7 +507,7 @@ const projectHandler = {
       });
 
       projects.forEach((project) => {
-        project.gambar = `https://storage.googleapis.com/project-imgs/${project.gambar}`;
+        project.gambar = `https://storage.googleapis.com/${bucketName}/${project.gambar}`;
       });
 
       const response = h.response({

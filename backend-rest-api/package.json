@@ -1,13 +1,13 @@
 {
-  "name": "idekita",
+  "name": "ideation",
   "version": "1.0.0",
-  "description": "idekita Capstone Project",
+  "description": "ideation",
   "main": "index.js",
   "scripts": {
     "start": "node src/server.js",
     "start-dev": "nodemon src/server.js"
   },
-  "author": "Dhillen",
+  "author": "ideation-developer",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.36.0",
