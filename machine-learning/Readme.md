@@ -1,4 +1,4 @@
-# Recommendation System - IdeKita 
+# Recommendation System - Ideation
 
 # Model overview
 
