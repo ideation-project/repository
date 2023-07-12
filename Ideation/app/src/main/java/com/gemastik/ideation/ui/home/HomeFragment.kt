@@ -45,7 +45,6 @@ class HomeFragment : Fragment() {
         searchItem.setOnQueryTextListener(object : android.widget.SearchView.OnQueryTextListener{
             override fun onQueryTextSubmit(query: String?): Boolean {
                 if (query != null){
-                    //binding.rvSearchProjecet.scrollToPosition(0)
 
                     val nama = query
                     val intent = Intent(requireContext(),SearchActivity::class.java)
