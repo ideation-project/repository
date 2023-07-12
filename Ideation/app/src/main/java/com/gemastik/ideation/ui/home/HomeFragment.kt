@@ -72,7 +72,7 @@ class HomeFragment : Fragment() {
     private fun setViewModel() {
         homeViewModel.getUser().observe(viewLifecycleOwner) { user ->
             if (user.isLogin) {
-                //get list LatestProyek
+
                 homeViewModel.listProject.observe(viewLifecycleOwner) {
                     ShowRecycleListLatestProject(it)
                 }
