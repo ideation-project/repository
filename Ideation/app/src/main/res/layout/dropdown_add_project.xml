@@ -1,0 +1,12 @@
+ <TextView
+        android:text="tvyahaha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dropdown_adapter"
+        android:textSize="15sp"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="5dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        />
+
